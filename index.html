@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="vivin.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <script>
+            // JavaScript code for smooth scrolling
+            document.addEventListener('DOMContentLoaded', function() {
+              var smoothScrollTriggers = document.querySelectorAll('a[href^="#"]');
+              for (var i = 0; i < smoothScrollTriggers.length; i++) {
+                smoothScrollTriggers[i].addEventListener('click', function(e) {
+                  e.preventDefault();
+                  var href = this.getAttribute('href');
+                  var targetElement = document.getElementById(href.replace('#', ''));
+                  var rect = targetElement.getBoundingClientRect();
+                  var offset = window.pageYOffset;
+                  var targetPosition = rect.top + offset;
+                  window.scrollTo({
+                    top: targetPosition,
+                    behavior: 'smooth'
+                  });
+                });
+              }
+            });
+          </script>
+        <title>Vivin Constructions and Engineering</title>
+    </head>
+<body>
+
+  <section class="vivinhome">
+  <div class="homesc" id="video">
+    <video autoplay loop muted plays-inline class="video">
+        <source src="video/Pexels-Henry-5538825 (1080P).m4v" type="video/mp4">
+    </video>
+    <nav>
+        <a href="index.html"><img class="navlogo" src="images/The-One-Solution-Logo-white-01.svg" alt=""></a>
+        <div class="navLinks" id="navLinks">
+            <img src="icons/close-menu-icon.svg" alt="" class="close" onclick="hideMenu()">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                
+            </ul> 
+        </div>
+        <img src="icons/open-menu-iocn.svg" alt="" class="open" onclick="openMenu()">
+    </nav>
+    <div class="elemetsholder">
+      <div class="vivinlogo">
+        <a href="home.html"><img class="vivin" src="images/Vivin-construction-and-engineering-logo-01.png" alt=""></a>
+      </div>
+        <a href="architecture.html"><div class="ele3 hidelogo"><p class="text">Architecture</p></div></a>
+        <a href="structure.html"><div class="ele1 hidelogo"><p class="text">Structure</p></div></a>
+        <a href="Interiordesign.html"><div class="ele4 hidelogo"><p class="text">Interior Design</p></div></a>
+        <a href="projects.html"><div class="ele5 hidelogo"><p class="text">Projects</p></div></a>
+    </div>
+  </div>
+</section>
+  <script src="nav.js"></script>
+  <script src="scrollanim.js"></script>
+</body>
+</html>

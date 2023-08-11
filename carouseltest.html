@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="project-carsousel.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script>
+        // JavaScript code for smooth scrolling
+        document.addEventListener('DOMContentLoaded', function() {
+          var smoothScrollTriggers = document.querySelectorAll('a[href^="#"]');
+          for (var i = 0; i < smoothScrollTriggers.length; i++) {
+            smoothScrollTriggers[i].addEventListener('click', function(e) {
+              e.preventDefault();
+              var href = this.getAttribute('href');
+              var targetElement = document.getElementById(href.replace('#', ''));
+              var rect = targetElement.getBoundingClientRect();
+              var offset = window.pageYOffset;
+              var targetPosition = rect.top + offset;
+              window.scrollTo({
+                top: targetPosition,
+                behavior: 'smooth'
+              });
+            });
+          }
+        });
+      </script>
+    <title>Vivin Constructions and Engineering</title>
+</head>
+<body>
+
+
+
+<section class="projects" id="ourservices" >
+    <div class="project-carousel-container">
+        <div class="project-carousel-slides">
+          <div class="project-carousel-slide">
+            <div class="projectimgcontainer">
+                <img src="images/architecture1.webp" alt="Slide 1">
+            </div>
+          <div class="my-slide-content">
+            <div class="slidecontentholder">
+                <h3>Architecture</h3>
+                <p>Welcome to Vivin Construct, a leading construction company. With over 20 years of expertise in the industry, we have earned a reputation as one of the best architectural and construction companies in the country. At Vivin, we pride ourselves on our exceptional skills, unwavering commitment, and unparalleled craftsmanship.</p>
+                <a href="architecture.html"><button>Explore</button></a>
+            </div>
+          </div>
+          </div>
+          <div class="project-carousel-slide">
+            <div class="projectimgcontainer">
+          <img src="images/fabrice-villard-yK9XeJsyiqo-unsplash.jpg" alt="Slide 1">
+      </div>
+    <div class="my-slide-content">
+      <div class="slidecontentholder"> 
+          <h3>PMC</h3>
+          <p>At Vivin Construction, we excel not only in managing our own projects but also in collaborating with renowned project management companies to execute their prestigious ventures. Our extensive portfolio includes a diverse range of construction projects, such as villas, office buildings, factories, and more.</p>
+          <a href="pmc.html"><button>Explore</button></a>
+      </div>
+    </div>
+          </div>
+          <div class="project-carousel-slide">
+            <div class="projectimgcontainer">
+                <img src="images/structure1.webp" alt="Slide 1">
+            </div>
+            <div class="my-slide-content">
+              <div class="slidecontentholder">
+                  <h3>Structure</h3>
+                  <p>At Vivin Construction, we uphold a commitment to excellence by hiring world-class structural engineers who play a crucial role in ensuring the structural integrity of our projects. Our team comprises top-notch professionals with extensive experience and expertise in the field of structural engineering.</p>
+                  <a href="structure.html"><button>Know More</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="project-carousel-slide">
+            <div class="projectimgcontainer">
+                <img src="images/structure1.webp" alt="Slide 1">
+            </div>
+            <div class="my-slide-content">
+              <div class="slidecontentholder">
+                  <h3>Interior Design</h3>
+                  <p>At Vivin Construction, we uphold a commitment to excellence by hiring world-class structural engineers who play a crucial role in ensuring the structural integrity of our projects. Our team comprises top-notch professionals with extensive experience and expertise in the field of structural engineering.</p>
+                  <a href="Interiordesign.html"><button>Know More</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="project-carousel-slide">
+            <div class="projectimgcontainer">
+                <img src="images/fabrice-villard-yK9XeJsyiqo-unsplash.jpg" alt="Slide 1">
+              </div>
+              <div class="my-slide-content">
+                <div class="slidecontentholder">
+                    <h3>Projects</h3>
+                    <p>At Vivin Construction, we take immense pride in our diverse portfolio of projects that exemplify our commitment to excellence and innovation. With each undertaking, we strive to deliver exceptional results that surpass client expectations and leave a lasting impact on the built environment.</p>
+                    <a href="projects.html"><button>Explore</button></a>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="project-carousel-indicators">
+          <!-- Indicators will be generated dynamically using JavaScript -->
+        </div>
+      </div>
+</section>
+
+
+
+
+  
+
+    
+    
+    
+    
+   
+    
+</section>
+<footer id="footer">
+    <img src="images/Vivin-construction-and-engineering-logo-01.png" alt="" class="footerlogo">
+    <div class="contact">
+        <div class="cholders">
+            <img src="icons/call.png" alt="">
+            <a href="" class="contact">+91 12345678901</a>
+        </div>
+        <div class="cholders">
+            <img src="icons/call.png" alt="">
+            <a href="" class="contact">+91 12345678901</a>
+        </div>
+        <div class="cholders">
+            <img src="icons/email.png" alt="">
+            <a href="" class="contact">HelloVivin.com</a>
+        </div>
+    </div>
+</footer>
+<div class="copyright">
+    <p>&copy;<a class="copy" href="">2023 VIVIN Groups</a>| All Rights Reserved. Design and Developed By<a class="copy" href="https://theonesolution.co.in/"> The One Solution</a></p> 
+</div>
+
+
+<script src="carousel.js"></script>
+<script src="nav.js"></script>
+<script src="projectslide.js"></script>
+<script src="testimonial.js"></script>
+<script src="scrollanim.js"></script>
+<script src="maximiseimg.js"></script>
+</body>
+</html>

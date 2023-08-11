@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="project-carsousel.css">
+    <link rel="stylesheet" href="insidepages.css">
+    <link rel="stylesheet" href="vivin.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script>
+        // JavaScript code for smooth scrolling
+        document.addEventListener('DOMContentLoaded', function() {
+          var smoothScrollTriggers = document.querySelectorAll('a[href^="#"]');
+          for (var i = 0; i < smoothScrollTriggers.length; i++) {
+            smoothScrollTriggers[i].addEventListener('click', function(e) {
+              e.preventDefault();
+              var href = this.getAttribute('href');
+              var targetElement = document.getElementById(href.replace('#', ''));
+              var rect = targetElement.getBoundingClientRect();
+              var offset = window.pageYOffset;
+              var targetPosition = rect.top + offset;
+              window.scrollTo({
+                top: targetPosition,
+                behavior: 'smooth'
+              });
+            });
+          }
+        });
+      </script>
+    <title>Vivin Constructions and Engineering</title>
+</head>
+<body>
+
+<section class="homescreen" id="home">
+<div class="carousel-container">
+  <div class="carousel-slide">
+    <img src="images/Industrialconstruction.webp" alt="Slide 1">
+    <div class="carousel-content">
+      <h2>Industrial Construction</h2>
+      <p>Building industrial spaces that excel in functionality, durability, and aesthetic appeal.</p><p>Vivin Construction specialises in industrial construction projects, utilising our expertise to deliver exceptional results. With a focus on efficiency and cost-effectiveness, we maximise the use of available resources to meet stringent industry standards.</p>
+      <a href="#ourservices"><button>Know More</button></a>
+    </div>
+  </div>
+  
+  <div class="carousel-slide">
+    <img src="images/Commercialbuilding1.webp" alt="Slide 2">
+    <div class="carousel-content">
+      <h2>Commercial Construction</h2>
+      <p>"Elevating commercial spaces with excellence"</p><p>Vivin Construction excels in constructing commercial properties with a winning mindset, maximising resource utilisation for optimal outcomes. Our approach combines ruggedness and cost-effectiveness while adhering to strict security and government standards.</p>
+      <a href="#ourservices"><button>Know More</button></a>
+    </div>
+  </div>
+  
+  <div class="carousel-slide">
+    <img src="images/zero-take-WvHrrR1C5Po-unsplash.jpg" alt="Slide 3">
+    <div class="carousel-content">
+      <h2>Residential Construction</h2>
+      <p>Crafting extraordinary homes that surpass your expectations</p><p>Vivin Construct specialises in creating exceptional residential properties that exceed your expectations. With careful attention to your requirements, we bring your vision to life with expertise and care.</p>
+      <a href="#ourservices"><button>Know More</button></a>
+    </div>
+  </div>
+  
+  <div class="carousel-indicators">
+    <span class="indicator active"></span>
+    <span class="indicator"></span>
+    <span class="indicator"></span>
+  </div>
+</div>
+
+<nav>
+    <a href="index.html"><img class="navlogo" src="images/Vivin-construction-and-engineering-logo-01.png" alt="The-One-Solution-Text-Logo-white-color"></a>
+    <div class="navLinks" id="navLinks">
+        <img src="icons/close-menu-icon.svg" alt="closing-icon" class="close" onclick="hideMenu()">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#ourservices">Services</a></li>
+            <li><a href="#sector">Sector</a></li>
+            <li><a href="#testimonial">Testimonials</a></li>
+            <li><a href="#footer">Contact Us</a></li>
+        </ul> 
+    </div>
+    <img src="icons/open-menu-iocn.svg" alt="three-line-menu" class="open" onclick="openMenu()">
+</nav>
+</section>
+
+
+
+
+<section class="aboutus" id="about">
+    <img src="images/vita-vilcina-KtOid0FLjqU-unsplash.jpg" alt="" class="aboutbg">
+    <h2 class="secheading">About Us</h2>
+    <div class="aboutcontbg hidden">
+        <div class="aboutimgholder">
+            <img src="images/lycs-architecture-kUdbEEMcRwE-unsplash.jpg" alt="" >
+        </div>
+        <div class="aboutcontholder">
+            <div class="aboutcontentholder1">
+                <h3>Vivin Construction and Engineering</h3>
+                <h4>VIVIN  sounds as "we-win”, we aim to win with our customers alongside expertise and the talent at our disposal</h4>
+                <p>VIVIN Group is a construction & a real estate company with innovation at its core. We aim at building a healthier lifestyle for the city-dwellers and greater sustainability for the ecosystem. The years that followed saw the company making several firsts in the industry – all directed towards achieving this single-minded goal. We have diversified our portfolio by working with several industries and we have undertaken commercial projects and have created a beautiful workspace and sustainable projects. VIVIN Group has diverse interests in real estate, industrial contracting, and infrastructure development.</p>
+                <a href="about.html"><button>Know More</button></a>
+            </div>
+            
+        </div>
+
+    </div>
+</section>
+
+<section class="projects" id="ourservices" >
+  <div class="project-carousel-container">
+      <div class="project-carousel-slides">
+        <div class="project-carousel-slide">
+          <div class="projectimgcontainer">
+              <img src="images/architecture1.webp" alt="Slide 1">
+          </div>
+        <div class="my-slide-content">
+          <div class="slidecontentholder">
+              <h3>Architecture</h3>
+              <p>Welcome to Vivin Construct, a leading construction company. With over 20 years of expertise in the industry, we have earned a reputation as one of the best architectural and construction companies in the country. At Vivin, we pride ourselves on our exceptional skills, unwavering commitment, and unparalleled craftsmanship.</p>
+              <a href="architecture.html"><button>Explore</button></a>
+          </div>
+        </div>
+        </div>
+        <div class="project-carousel-slide">
+          <div class="projectimgcontainer">
+        <img src="images/fabrice-villard-yK9XeJsyiqo-unsplash.jpg" alt="Slide 1">
+    </div>
+  <div class="my-slide-content">
+    <div class="slidecontentholder"> 
+        <h3>PMC</h3>
+        <p>At Vivin Construction, we excel not only in managing our own projects but also in collaborating with renowned project management companies to execute their prestigious ventures. Our extensive portfolio includes a diverse range of construction projects, such as villas, office buildings, factories, and more.</p>
+        <a href="pmc.html"><button>Explore</button></a>
+    </div>
+  </div>
+        </div>
+        <div class="project-carousel-slide">
+          <div class="projectimgcontainer">
+              <img src="images/structure1.webp" alt="Slide 1">
+          </div>
+          <div class="my-slide-content">
+            <div class="slidecontentholder">
+                <h3>Structure</h3>
+                <p>At Vivin Construction, we uphold a commitment to excellence by hiring world-class structural engineers who play a crucial role in ensuring the structural integrity of our projects. Our team comprises top-notch professionals with extensive experience and expertise in the field of structural engineering.</p>
+                <a href="structure.html"><button>Know More</button></a>
+            </div>
+          </div>
+        </div>
+        <div class="project-carousel-slide">
+          <div class="projectimgcontainer">
+              <img src="images/structure1.webp" alt="Slide 1">
+          </div>
+          <div class="my-slide-content">
+            <div class="slidecontentholder">
+                <h3>Interior Design</h3>
+                <p>At Vivin Construction, we uphold a commitment to excellence by hiring world-class structural engineers who play a crucial role in ensuring the structural integrity of our projects. Our team comprises top-notch professionals with extensive experience and expertise in the field of structural engineering.</p>
+                <a href="Interiordesign.html"><button>Know More</button></a>
+            </div>
+          </div>
+        </div>
+        <div class="project-carousel-slide">
+          <div class="projectimgcontainer">
+              <img src="images/fabrice-villard-yK9XeJsyiqo-unsplash.jpg" alt="Slide 1">
+            </div>
+            <div class="my-slide-content">
+              <div class="slidecontentholder">
+                  <h3>Projects</h3>
+                  <p>At Vivin Construction, we take immense pride in our diverse portfolio of projects that exemplify our commitment to excellence and innovation. With each undertaking, we strive to deliver exceptional results that surpass client expectations and leave a lasting impact on the built environment.</p>
+                  <a href="projects.html"><button>Explore</button></a>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="project-carousel-indicators">
+        <!-- Indicators will be generated dynamically using JavaScript -->
+      </div>
+    </div>
+</section>
+<section class="expertise">
+  <h2>Our Expertise</h2>
+  <div class="expertiseboxholder">
+   
+      <div class="expbox">
+        <img src="icons/open-menu-iocn.svg" alt="">
+        <h4>Inhouse Structural Design Team</h4>
+        
+      </div>
+    
+    
+      <div class="expbox">
+        <img src="icons/open-menu-iocn.svg" alt="">
+        <h4>Complete Interior Solution</h4>
+        
+      </div>
+  
+    
+      <div class="expbox">
+        <img src="icons/open-menu-iocn.svg" alt="">
+        <h4>Inhouse Landscaping Team</h4>
+        
+      </div>
+   
+      <div class="expbox">
+        <img src="icons/open-menu-iocn.svg" alt="">
+        <h4>Technical Experts</h4>
+        
+      </div>
+      
+  
+  </div>
+  <div class="expertiseboxholder">
+   
+    <div class="expbox">
+      <img src="icons/open-menu-iocn.svg" alt="">
+      <h4>Earth Moving and Block making machine collab</h4>
+      
+    </div>
+  
+  
+    <div class="expbox">
+      <img src="icons/open-menu-iocn.svg" alt="">
+      <h4>Green Building Concept</h4>
+      
+    </div>
+
+  
+    <div class="expbox">
+      <img src="icons/open-menu-iocn.svg" alt="">
+      <h4>Expertise in Industrial, Commercial and Residential Construction </h4>
+      
+    </div>
+ 
+    <div class="expbox">
+      <img src="icons/open-menu-iocn.svg" alt="">
+      <h4>Inhouse Structural Design Team</h4>
+      
+    </div>
+    
+
+</div>
+<a href="projects.html"><button>Know More</button></a>
+</section>
+
+
+<section class="sector" id="sector">
+    <h2>Sector we work in</h2>
+    <img src="images/fabrice-villard-yK9XeJsyiqo-unsplash.jpg" alt="">
+    <div class="sectorholder hidden">
+        <div class="sectorcard">
+            <img src="images/Commercial-building-construction.webp" alt="">
+            <div class="cardcontentholder">
+                <h3>Commercial</h3>
+                <p>Vivin Construction, creating inspiring projects from offices to mixed-use developments. We blend innovative design, efficient space utilization, and premium materials for dynamic environments. Understanding business needs, we deliver customized solutions with meticulous attention to detail. Contact Vivin Construction to bring your vision to life.</p>
+                <a href="#footer"><button>Know More</button> </a>
+            </div>
+        </div>
+        <div class="sectorcard">
+            <img src="images/fabrice-villard-yK9XeJsyiqo-unsplash.jpg" alt="">
+            <div class="cardcontentholder">
+                <h3>Residential</h3>
+                <p>Vivin Construction, With a commitment to quality and client satisfaction, we bring elegance and comfort to life. Our skilled professionals combine innovative design, efficient planning, and premium materials. From luxurious villas to contemprary apartments, we cater to diverse preferences. Experience the art of residential construction with Vivin.</p>
+                <a href="#footer"><button>Know More</button></a>
+            </div>
+        </div>
+        <div class="sectorcard">
+            <img src="images/Industrial-construction.webp" alt="">
+            <div class="cardcontentholder">
+                <h3>Industrial</h3>
+                <p>Vivin Construction, optimizing productivity and safety. We specialize in factories, warehouses, and industrial complexes. Our precision engineering ensures durable and flexible facilities. Trust us for streamlined processes, advanced technologies, and sustainable practices. Experience excellence in industrial construction with Vivin.</p>
+                <a href="#footer"><button>Know More</button> </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="project" id="project">
+  <h2>Our Projects</h2>
+  <div class="tab-container">
+    <div class="tab" id="tab1" onclick="changeTab(1)">Industrial</div>
+    <div class="tab" id="tab2" onclick="changeTab(2)">Commercial</div>
+    <div class="tab" id="tab3" onclick="changeTab(3)">Residential</div>
+    <div class="tab" id="tab4" onclick="changeTab(4)">Interior Design</div>
+    <div class="tab" id="tab5" onclick="changeTab(5)">Structural Design</div>
+    <div class="tab" id="tab5" onclick="changeTab(6)">3d Design</div>
+</div>
+<div class="container-holder">
+    <div class="content" id="content1">
+        <img src="images/Architecture.webp" alt="" class="maximizable-image">
+        <img src="images/architecture1.webp" alt="" class="maximizable-image">
+        <img src="images/architecture2-01-01.webp" alt="" class="maximizable-image">
+        <img src="images/college dinig hall nie.jpg" alt="" class="maximizable-image">
+    </div>
+    <div class="content" id="content2">
+
+    </div>
+    <div class="content" id="content3">
+
+    </div>
+    <div class="content" id="content4">
+        <img src="" alt="">
+    </div>
+    <div class="content" id="content5">
+
+    </div>
+    <div class="content" id="content6">
+
+    </div>
+</div>
+  </section>
+
+<section class="testimonial" id="testimonial">
+    <img src="images/zero-take-WvHrrR1C5Po-unsplash.jpg" alt="">
+    <h2>People's View on Vivin</h2>
+    <!---<div class="testimonialcardholder">
+        <div class="testimonialcard">
+            <img src="icons/profile-circle-icon-2048x2048-cqe5466q.png" alt="">
+            <h4>Name</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur reiciendis asperiores harum officiis earum. Saepe dolorum voluptas porro esse repellendus earum consequuntur incidunt ut eos, officia omnis iusto praesentium odio?</p>
+
+        </div>
+        <div class="testimonialcard">
+            <img src="icons/profile-circle-icon-2048x2048-cqe5466q.png" alt="">
+            <h4>Name</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur reiciendis asperiores harum officiis earum. Saepe dolorum voluptas porro esse repellendus earum consequuntur incidunt ut eos, officia omnis iusto praesentium odio?</p>
+
+        </div>
+        <div class="testimonialcard">
+            <img src="icons/profile-circle-icon-2048x2048-cqe5466q.png" alt="">
+            <h4>Name</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur reiciendis asperiores harum officiis earum. Saepe dolorum voluptas porro esse repellendus earum consequuntur incidunt ut eos, officia omnis iusto praesentium odio?</p>
+
+        </div>
+    </div>---->
+   
+    <div class="testimonial-slider">
+      <div class="testimonial-slide active">
+        <p class="testimonial-quote">"When we brought VIVIN on board for our residential villa project, I had serious doubts about its success due to the incredibly tight construction schedule. However, VIVIN proved to be exceptional by investing the necessary time to understand our requirements and delivering an outstanding output. Their efforts were so remarkable that our home received the prestigious "BEST ARCHITECT & BUILDER" award from the Mysore district jurisdiction"</p>
+        <p class="testimonial-author">- Priya Vasanthraj</p>
+      </div>
+      <div class="testimonial-slide">
+        <p class="testimonial-quote">"We want to express our heartfelt appreciation for the exceptional performance of you and your associates in every aspect. Your professionalism, attentiveness to our needs, and commitment to completing projects within the specified timeframe and budget have been truly remarkable. The design expertise and innovative thinking you have brought to our initiatives have exceeded our expectations and provided us with added value, something we deeply value and appreciate. Thank you for your outstanding contributions."</p>
+        <p class="testimonial-author">- Sandeep Urs</p>
+      </div>
+      <div class="testimonial-slide">
+        <p class="testimonial-quote">"Throughout our project, VIVIN consistently upheld the highest standards of quality, value, professionalism, safety, and cleanliness, with a primary focus on ethics and customer satisfaction. Not only was our project completed within the specified timeline, but it was also accomplished under budget. When you choose to work with VIVIN, you're not just hiring a General Contractor; you're partnering with a dedicated advocate who is committed to realising your dreams and goals."</p>
+        <p class="testimonial-author">- Ravi Hulkoti</p>
+      </div>
+    </div>
+
+  
+
+    
+    
+    
+    
+   
+    
+</section>
+<footer id="footer">
+  <img src="images/Vivin-construction-and-engineering-logo-01.png" alt="" class="footerlogo">
+  <div class="contact">
+      <div class="cholders">
+          <img src="icons/call.png" alt="">
+          <a href="tel:919481068476" class="contact">+91 9481068476</a>
+      </div>
+      <div class="cholders">
+          <img src="icons/call.png" alt="">
+          <a href="https://wa.me/9481068476" class="contact">+91 9481068476</a>
+      </div>
+      <div class="cholders">
+          <img src="icons/email.png" alt="">
+          <a href="mailto:info@vivingroups.com" class="contact">info@vivingroups.com</a>
+      </div>
+  </div>
+</footer>
+<div class="copyright">
+    <p>&copy;<a class="copy" href=""> 2023 VIVIN Groups</a>| All Rights Reserved. Designed and Developed By |<a class="copy" href="https://theonesolution.co.in/"> The One Solution</a></p> 
+</div>
+
+
+<script src="carousel.js"></script>
+<script src="nav.js"></script>
+<script src="projectslide.js"></script>
+<script src="testimonial.js"></script>
+<script src="scrollanim.js"></script>
+<script src="maximiseimg.js"></script>
+<script src="gallery.js"></script>
+</body>
+</html>

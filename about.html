@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="project-carsousel.css">
+    <link rel="stylesheet" href="vivin.css">
+    <link rel="stylesheet" href="insidepages.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script>
+        // JavaScript code for smooth scrolling
+        document.addEventListener('DOMContentLoaded', function() {
+          var smoothScrollTriggers = document.querySelectorAll('a[href^="#"]');
+          for (var i = 0; i < smoothScrollTriggers.length; i++) {
+            smoothScrollTriggers[i].addEventListener('click', function(e) {
+              e.preventDefault();
+              var href = this.getAttribute('href');
+              var targetElement = document.getElementById(href.replace('#', ''));
+              var rect = targetElement.getBoundingClientRect();
+              var offset = window.pageYOffset;
+              var targetPosition = rect.top + offset;
+              window.scrollTo({
+                top: targetPosition,
+                behavior: 'smooth'
+              });
+            });
+          }
+        });
+      </script>
+    <title>Vivin Constructions and Engineering</title>
+</head>
+<body>
+
+<section class="homescreen" id="home">
+<div class="aboutscreen">
+    <img src="images/Architecture.webp" alt="">
+    <h3>About Vivin Construction</h3>
+</div>
+
+<nav>
+    <a href="index.html"><img class="navlogo" src="images/Vivin-construction-and-engineering-logo-01.png" alt="The-One-Solution-Text-Logo-white-color"></a>
+    <div class="navLinks" id="navLinks">
+        <img src="icons/close-menu-icon.svg" alt="closing-icon" class="close" onclick="hideMenu()">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#ourservices">Services</a></li>
+            <li><a href="#sector">Sector</a></li>
+            <li><a href="#testimonial">Testimonials</a></li>
+            <li><a href="#footer">Contact Us</a></li>
+        </ul> 
+    </div>
+    <img src="icons/open-menu-iocn.svg" alt="three-line-menu" class="open" onclick="openMenu()">
+</nav>
+</section>
+<div class="asec">
+    <div class="aseccontentholder">
+        <div class="vivinabout">
+            <h3>VIVIN  sounds as "we-win”, we aim to win with our customers alongside expertise and the talent at our disposal</h3>
+            <p>VIVIN Group is a construction & a real estate company with innovation at its core. We aim at building a healthier lifestyle for the city-dwellers and greater sustainability for the ecosystem. The years that followed saw the company making several firsts in the industry – all directed towards achieving this single-minded goal. We have diversified our portfolio by working with several industries and we have undertaken commercial projects and have created a beautiful workspace and sustainable projects. VIVIN Group has diverse interests in real estate, industrial contracting, and infrastructure development.</p>
+        </div>
+        <div class="vision">
+            <h3>Vision</h3>
+            <p>At VIVIN we want to be a part of the infrastructure innovation and growth . VIVIN shall be a beacon of honesty and hard work and settle for nothing less than top class customer satisfaction in quality, reliability, timely completion and a safe working environment.
+            </p>
+            <div class="absecimgholder">
+                <img src="images/Residential.jpg" alt="">
+                <img src="images/Home1.jpg" alt="">
+            </div>
+            
+            <p>
+                Our existence is to make the entire process of investment for individuals and businesses as smooth and transparent as possible with an ethical business practice & collaborative, creative environment.
+            </p>
+            <p>
+                Every  year  we aim at achieving double the growth of previous year. We have always been successful in doing that and intend to keep it that way. 
+            </p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+  
+
+    
+    
+    
+    
+   
+    
+</section>
+<footer id="footer">
+  <img src="images/Vivin-construction-and-engineering-logo-01.png" alt="" class="footerlogo">
+  <div class="contact">
+      <div class="cholders">
+          <img src="icons/call.png" alt="">
+          <a href="tel:919481068476" class="contact">+91 9481068476</a>
+      </div>
+      <div class="cholders">
+          <img src="icons/call.png" alt="">
+          <a href="https://wa.me/9481068476" class="contact">+91 9481068476</a>
+      </div>
+      <div class="cholders">
+          <img src="icons/email.png" alt="">
+          <a href="mailto:info@vivingroups.com" class="contact">info@vivingroups.com</a>
+      </div>
+  </div>
+</footer>
+<div class="copyright">
+    <p>&copy;<a class="copy" href=""> 2023 VIVIN Groups</a>| All Rights Reserved. Designed and Developed By |<a class="copy" href="https://theonesolution.co.in/"> The One Solution</a></p> 
+</div>
+
+
+<script src="carousel.js"></script>
+<script src="nav.js"></script>
+<script src="projectslide.js"></script>
+<script src="testimonial.js"></script>
+<script src="scrollanim.js"></script>
+<script src="maximiseimg.js"></script>
+</body>
+</html>

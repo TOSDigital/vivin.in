@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="insidepages.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script>
+        // JavaScript code for smooth scrolling
+        document.addEventListener('DOMContentLoaded', function() {
+          var smoothScrollTriggers = document.querySelectorAll('a[href^="#"]');
+          for (var i = 0; i < smoothScrollTriggers.length; i++) {
+            smoothScrollTriggers[i].addEventListener('click', function(e) {
+              e.preventDefault();
+              var href = this.getAttribute('href');
+              var targetElement = document.getElementById(href.replace('#', ''));
+              var rect = targetElement.getBoundingClientRect();
+              var offset = window.pageYOffset;
+              var targetPosition = rect.top + offset;
+              window.scrollTo({
+                top: targetPosition,
+                behavior: 'smooth'
+              });
+            });
+          }
+        });
+      </script>
+    <title>Vivin Constructions and Engineering</title>
+</head>
+<body>
+
+<header>
+    <img class="cover" src="images/fabrice-villard-yK9XeJsyiqo-unsplash.jpg" alt="">
+    <nav>
+        <a href="index.html"><img class="navlogo" src="images/Vivin-construction-and-engineering-logo-01.png" alt="The-One-Solution-Text-Logo-white-color"></a>
+        <div class="navLinks" id="navLinks">
+            <img src="icons/close-menu-icon.svg" alt="closing-icon" class="close" onclick="hideMenu()">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#ourservices">Services</a></li>
+                <li><a href="#sector">Sector</a></li>
+                <li><a href="#testimonial">Testimonials</a></li>
+                <li><a href="#footer">Contact Us</a></li>
+            </ul> 
+        </div>
+        <img src="icons/open-menu-iocn.svg" alt="three-line-menu" class="open" onclick="openMenu()">
+    </nav>
+</header>
+
+<section class="architecture" id="arc">
+    <h1>Interior Design</h1>
+    <div class="photoholder">
+        <img src="images/interiordesign1.webp" alt="">
+    </div>
+    <div class="insidecont">
+        <p>Vivin Construction boasts an impressive track record, particularly in the realm of exceptional interior design. Our expertise lies in utilising every inch of space efficiently, ensuring a perfect balance between functionality and aesthetics. We prioritise efficiency and durability, meticulously selecting the best products available in the market to guarantee long-lasting results.
+
+            At Vivin, we understand the importance of seamless integration between architectural design and interior design. Our dedicated team works hand in hand, harmonising both aspects to create a visually stunning and cohesive space. With meticulous attention to detail, we strive to deliver an aesthetically pleasing look that complements the overall design vision.
+            
+            Our commitment to excellence extends beyond the surface. <li>We focus on optimising space utilisation, carefully considering the needs and preferences of our clients. Through our innovative approach, we create designs that not only enhance the visual appeal but also improve the functionality and comfort of the space.
+            
+                When it comes to material selection, we never compromise on quality. We believe in using the finest products available, ensuring the longevity and resilience of our projects. By combining superior craftsmanship with top-notch materials, we deliver outstanding results that stand the test of time.
+                
+                At Vivin Construction, we take pride in our ability to transform spaces into breathtaking environments.</li><li>With a keen eye for detail and a passion for innovative design, we consistently exceed expectations. Whether it's a residential project, commercial space, or any other endeavour, we are dedicated to creating spaces that inspire and elevate the human experience.
+            
+            Choose Vivin Construction for your next project and experience our unwavering commitment to excellence, meticulous attention to detail, and impeccable interior design. Contact us today to bring your vision to life.</li>
+            </p>
+    </div>
+</section>
+<section class="project" id="project">
+<h2>Interior Design</h2>
+<div class="projectgallery">
+    <img src="images/architecture2-01-01.webp" class="maximizable-image" alt="">
+    <img src="images/architecture3-01.webp" class="maximizable-image" alt="">   
+</div>
+</section>
+
+
+
+
+
+<footer id="footer">
+    <img src="images/Vivin-construction-and-engineering-logo-01.png" alt="" class="footerlogo">
+    <div class="contact">
+        <div class="cholders">
+            <img src="icons/call.png" alt="">
+            <a href="tel:919481068476" class="contact">+91 9481068476</a>
+        </div>
+        <div class="cholders">
+            <img src="icons/call.png" alt="">
+            <a href="https://wa.me/9481068476" class="contact">+91 9481068476</a>
+        </div>
+        <div class="cholders">
+            <img src="icons/email.png" alt="">
+            <a href="mailto:info@vivingroups.com" class="contact">info@vivingroups.com</a>
+        </div>
+    </div>
+</footer>
+<div class="copyright">
+    <p>&copy;<a class="copy" href="">2023 VIVIN Groups</a>| All Rights Reserved. Design and Developed By<a class="copy" href="https://theonesolution.co.in/"> The One Solution</a></p> 
+</div>
+
+
+<script src="carousel.js"></script>
+<script src="nav.js"></script>
+<script src="projectslide.js"></script>
+<script src="testimonial.js"></script>
+<script src="scrollanim.js"></script>
+<script src="maximiseimg.js"></script>
+</body>
+</html>

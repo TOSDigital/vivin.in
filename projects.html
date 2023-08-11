@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="insidepages.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script>
+        // JavaScript code for smooth scrolling
+        document.addEventListener('DOMContentLoaded', function() {
+          var smoothScrollTriggers = document.querySelectorAll('a[href^="#"]');
+          for (var i = 0; i < smoothScrollTriggers.length; i++) {
+            smoothScrollTriggers[i].addEventListener('click', function(e) {
+              e.preventDefault();
+              var href = this.getAttribute('href');
+              var targetElement = document.getElementById(href.replace('#', ''));
+              var rect = targetElement.getBoundingClientRect();
+              var offset = window.pageYOffset;
+              var targetPosition = rect.top + offset;
+              window.scrollTo({
+                top: targetPosition,
+                behavior: 'smooth'
+              });
+            });
+          }
+        });
+      </script>
+    <title>Vivin Constructions and Engineering</title>
+</head>
+<body>
+
+<header>
+    <img class="cover" src="images/fabrice-villard-yK9XeJsyiqo-unsplash.jpg" alt="">
+    <nav>
+        <a href="index.html"><img class="navlogo" src="images/Vivin-construction-and-engineering-logo-01.png" alt="The-One-Solution-Text-Logo-white-color"></a>
+        <div class="navLinks" id="navLinks">
+            <img src="icons/close-menu-icon.svg" alt="closing-icon" class="close" onclick="hideMenu()">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="home.html#about">About Us</a></li>
+                <li><a href="home.html#ourservices">Services</a></li>
+                <li><a href="home.html#sector">Sector</a></li>
+                <li><a href="home.html#testimonial">Testimonials</a></li>
+                <li><a href="#footer">Contact Us</a></li>
+            </ul> 
+        </div>
+        <img src="icons/open-menu-iocn.svg" alt="three-line-menu" class="open" onclick="openMenu()">
+    </nav>
+</header>
+
+
+<section class="project" id="project">
+    <h2>Our Projects</h2>
+    <div class="photoholder">
+        <img src="images/structure.webp" alt="Structural engineering by Vivin Engineering">
+    </div>
+    <div class="insidecont">
+        <li>At Vivin Construction, we take immense pride in our diverse portfolio of projects that exemplify our commitment to excellence and innovation. With each undertaking, we strive to deliver exceptional results that surpass client expectations and leave a lasting impact on the built environment.
+
+        Our project portfolio spans a wide range of sectors, including residential, commercial, industrial infrastructure. From luxurious residential villas and high-rise apartment complexes to state-of-the-art office buildings and cutting-edge industrial facilities, we have successfully completed projects of varying scales and complexities.
+        
+        In every project we undertake, we prioritize meticulous planning, efficient execution, and seamless project management.</li><li> Our dedicated team works closely with clients to understand their unique requirements, translating their vision into reality while incorporating our expertise and innovative approach.
+        
+        With an unwavering focus on quality, we meticulously select the finest materials, employ advanced construction techniques, and engage skilled craftsmen to ensure that each project is executed to perfection. From the foundation to the finishing touches, we pay attention to every detail, creating spaces that are not only visually appealing but also functional, sustainable, and built to last.
+        
+        Throughout our journey, we have had the privilege of collaborating with esteemed architects, designers, and project management firms, enabling us to deliver projects that showcase outstanding architectural design, efficient space utilization, and seamless integration of various elements.</li>
+        
+       <li> At Vivin Construction, we believe that successful projects go beyond construction. They are a testament to our ability to bring dreams to life, create inspiring environments, and contribute to the growth and development of communities. We are committed to exceeding client expectations, delivering projects that not only meet their needs but also stand as iconic structures within their respective contexts.
+        
+        Choose Vivin Construction for your next project and witness our dedication to excellence, innovative thinking, and unwavering commitment to delivering outstanding results. Contact us today to explore how we can bring your vision to fruition and embark on a remarkable construction journey together.</li></div>
+<div class="projectgallery">
+    <img src="images/architecture2-01-01.webp" class="maximizable-image" alt="">
+    <img src="images/college dinig hall nie.jpg" class="maximizable-image" alt="">
+    <img src="images/College dining hall.jpg" class="maximizable-image" alt="">
+    <img src="images/home 3.jpg" class="maximizable-image" alt="">
+    <img src="images/factory construction.jpg" class="maximizable-image" alt="">
+    <img src="images/industrial2.jpg" class="maximizable-image" alt="">
+    <img src="images/residential5.jpg" class="maximizable-image" alt="">
+    <img src="images/architecture3-01.webp" class="maximizable-image" alt="">
+    
+</div>
+</section>
+
+
+
+
+
+<footer id="footer">
+    <img src="images/Vivin-construction-and-engineering-logo-01.png" alt="" class="footerlogo">
+    <div class="contact">
+        <div class="cholders">
+            <img src="icons/call.png" alt="">
+            <a href="tel:919481068476" class="contact">+91 9481068476</a>
+        </div>
+        <div class="cholders">
+            <img src="icons/call.png" alt="">
+            <a href="https://wa.me/9481068476" class="contact">+91 9481068476</a>
+        </div>
+        <div class="cholders">
+            <img src="icons/email.png" alt="">
+            <a href="mailto:info@vivingroups.com" class="contact">info@vivingroups.com</a>
+        </div>
+    </div>
+</footer>
+<div class="copyright">
+    <p>&copy;<a class="copy" href="">2023 VIVIN Groups</a>| All Rights Reserved. Design and Developed By<a class="copy" href="https://theonesolution.co.in/"> The One Solution</a></p> 
+</div>
+
+
+<script src="carousel.js"></script>
+<script src="nav.js"></script>
+<script src="projectslide.js"></script>
+<script src="testimonial.js"></script>
+<script src="scrollanim.js"></script>
+<script src="maximiseimg.js"></script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="insidepages.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script>
+        // JavaScript code for smooth scrolling
+        document.addEventListener('DOMContentLoaded', function() {
+          var smoothScrollTriggers = document.querySelectorAll('a[href^="#"]');
+          for (var i = 0; i < smoothScrollTriggers.length; i++) {
+            smoothScrollTriggers[i].addEventListener('click', function(e) {
+              e.preventDefault();
+              var href = this.getAttribute('href');
+              var targetElement = document.getElementById(href.replace('#', ''));
+              var rect = targetElement.getBoundingClientRect();
+              var offset = window.pageYOffset;
+              var targetPosition = rect.top + offset;
+              window.scrollTo({
+                top: targetPosition,
+                behavior: 'smooth'
+              });
+            });
+          }
+        });
+      </script>
+    <title>Vivin Constructions and Engineering</title>
+</head>
+<body>
+
+<header>
+    <img class="cover" src="images/fabrice-villard-yK9XeJsyiqo-unsplash.jpg" alt="">
+    <nav>
+        <a href="index.html"><img class="navlogo" src="images/Vivin-construction-and-engineering-logo-01.png" alt="The-One-Solution-Text-Logo-white-color"></a>
+        <div class="navLinks" id="navLinks">
+            <img src="icons/close-menu-icon.svg" alt="closing-icon" class="close" onclick="hideMenu()">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#ourservices">Services</a></li>
+                <li><a href="#sector">Sector</a></li>
+                <li><a href="#testimonial">Testimonials</a></li>
+                <li><a href="#footer">Contact Us</a></li>
+            </ul> 
+        </div>
+        <img src="icons/open-menu-iocn.svg" alt="three-line-menu" class="open" onclick="openMenu()">
+    </nav>
+</header>
+
+<section class="architecture" id="arc">
+    <h1>PMC</h1>
+    <div class="photoholder">
+        <img src="images/vita-vilcina-KtOid0FLjqU-unsplash.jpg" alt="">
+    </div>
+    <div class="insidecont">
+        <p>At Vivin Construction, we excel not only in managing our own projects but also in collaborating with renowned project management companies to execute their prestigious ventures. Our extensive portfolio includes a diverse range of construction projects, such as villas, office buildings, factories, and more.
+
+            With our expertise and experience, we have successfully constructed luxurious villas that epitomise elegance and sophistication. <li> These residences are designed to provide a harmonious blend of comfort and style, ensuring a serene living experience for our clients.
+            
+            In the commercial sector, we have undertaken the construction of office buildings that reflect professionalism and functionality. From sleek and modern designs to efficient space planning, our projects cater to the unique requirements of businesses, promoting productivity and creating a conducive work environment.
+            
+            Moreover, we have completed industrial projects, including factories, with a focus on efficiency and optimization.</li><li> We understand the specific needs of industrial clients and tailor our construction approach to meet their operational requirements. Our projects combine sturdy construction methods with innovative solutions to deliver facilities that support seamless production processes.
+            
+            At Vivin Construction, we take pride in our ability to bring our clients' visions to life. Through collaboration and effective project management, we ensure successful project execution, meeting deadlines and adhering to the highest quality standards. Our dedication to excellence has earned us a reputation for delivering outstanding results in partnership with renowned project management companies.
+            
+            Choose Vivin Construction for your next project, whether it's a villa, office building, factory, or any other construction endeavour. Our commitment to excellence and our ability to work in collaboration with esteemed project management companies make us the ideal choice. Contact us today to discuss your project requirements and turn your vision into reality.</li></p>
+    </div>
+</section>
+<section class="project" id="project">
+<h2>Our Projects</h2>
+<div class="projectgallery">
+    <img src="images/vita-vilcina-KtOid0FLjqU-unsplash.jpg" class="maximizable-image" alt="">
+    <img src="images/vita-vilcina-KtOid0FLjqU-unsplash.jpg" class="maximizable-image" alt="">
+    <img src="images/vita-vilcina-KtOid0FLjqU-unsplash.jpg" class="maximizable-image" alt="">
+    <img src="images/vita-vilcina-KtOid0FLjqU-unsplash.jpg" class="maximizable-image" alt="">
+    <img src="images/vita-vilcina-KtOid0FLjqU-unsplash.jpg" class="maximizable-image" alt="">
+
+    <img src="images/vita-vilcina-KtOid0FLjqU-unsplash.jpg" class="maximizable-image" alt="">
+    <img src="images/vita-vilcina-KtOid0FLjqU-unsplash.jpg" class="maximizable-image" alt="">
+</div>
+</section>
+
+
+
+
+
+<footer id="footer">
+    <img src="images/Vivin-construction-and-engineering-logo-01.png" alt="" class="footerlogo">
+    <div class="contact">
+        <div class="cholders">
+            <img src="icons/call.png" alt="">
+            <a href="tel:919481068476" class="contact">+91 9481068476</a>
+        </div>
+        <div class="cholders">
+            <img src="icons/call.png" alt="">
+            <a href="https://wa.me/9481068476" class="contact">+91 9481068476</a>
+        </div>
+        <div class="cholders">
+            <img src="icons/email.png" alt="">
+            <a href="mailto:info@vivingroups.com" class="contact">info@vivingroups.com</a>
+        </div>
+    </div>
+</footer>
+<div class="copyright">
+    <p>&copy;<a class="copy" href="">2023 VIVIN Groups</a>| All Rights Reserved. Design and Developed By<a class="copy" href="https://theonesolution.co.in/"> The One Solution</a></p> 
+</div>
+
+
+<script src="carousel.js"></script>
+<script src="nav.js"></script>
+<script src="projectslide.js"></script>
+<script src="testimonial.js"></script>
+<script src="scrollanim.js"></script>
+<script src="maximiseimg.js"></script>
+</body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="insidepages.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script>
+        // JavaScript code for smooth scrolling
+        document.addEventListener('DOMContentLoaded', function() {
+          var smoothScrollTriggers = document.querySelectorAll('a[href^="#"]');
+          for (var i = 0; i < smoothScrollTriggers.length; i++) {
+            smoothScrollTriggers[i].addEventListener('click', function(e) {
+              e.preventDefault();
+              var href = this.getAttribute('href');
+              var targetElement = document.getElementById(href.replace('#', ''));
+              var rect = targetElement.getBoundingClientRect();
+              var offset = window.pageYOffset;
+              var targetPosition = rect.top + offset;
+              window.scrollTo({
+                top: targetPosition,
+                behavior: 'smooth'
+              });
+            });
+          }
+        });
+      </script>
+    <title>Vivin Constructions and Engineering</title>
+</head>
+<body>
+
+<header>
+    <img class="cover" src="images/fabrice-villard-yK9XeJsyiqo-unsplash.jpg" alt="">
+    <nav>
+        <a href="index.html"><img class="navlogo" src="images/Vivin-construction-and-engineering-logo-01.png" alt="The-One-Solution-Text-Logo-white-color"></a>
+        <div class="navLinks" id="navLinks">
+            <img src="icons/close-menu-icon.svg" alt="closing-icon" class="close" onclick="hideMenu()">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#ourservices">Services</a></li>
+                <li><a href="#sector">Sector</a></li>
+                <li><a href="#testimonial">Testimonials</a></li>
+                <li><a href="#footer">Contact Us</a></li>
+            </ul> 
+        </div>
+        <img src="icons/open-menu-iocn.svg" alt="three-line-menu" class="open" onclick="openMenu()">
+    </nav>
+</header>
+
+<section class="architecture" id="arc">
+    <h1>Structure</h1>
+    <div class="photoholder">
+        <img src="images/structure.webp" alt="">
+    </div>
+    <div class="insidecont">
+        <p>        At Vivin Construction, we uphold a commitment to excellence by hiring world-class structural engineers who play a crucial role in ensuring the structural integrity of our projects. Our team comprises top-notch professionals with extensive experience and expertise in the field of structural engineering.
+
+            By employing these highly skilled engineers, we guarantee that every project we undertake adheres to the highest standards of safety and durability. <li> Their expertise allows us to confidently tackle complex challenges and deliver structures that withstand the test of time.
+    
+            At Vivin Construction, we understand the paramount importance of structural integrity in construction. Our dedicated team of engineers collaborates closely with architects and designers to develop innovative solutions that not only meet aesthetic goals but also prioritize the stability and resilience of the structures we build.
+    
+            By incorporating advanced technologies and rigorous analysis, our structural engineers ensure that every aspect of the project is thoroughly evaluated and optimized.</li><li>From foundational elements to load-bearing structures, we leave no stone unturned in guaranteeing the safety and longevity of the completed project.
+    
+            By harnessing the expertise of world-class structural engineers, Vivin Construction has earned a reputation for delivering projects that surpass expectations.</li><li> Clients can trust in our ability to create stunning structures that not only showcase exceptional design but also provide peace of mind with their robust construction.
+    
+            When you choose Vivin Construction, you can be confident that our team of world-class structural engineers will oversee every aspect of your project, ensuring its structural integrity and durability. Contact us today to discuss your construction needs and experience the expertise and professionalism that sets us apart.</li></p>
+    </div>
+</section>
+<section class="project" id="project">
+<h2>Our Projects</h2>
+<div class="projectgallery">
+    <img src="images/vita-vilcina-KtOid0FLjqU-unsplash.jpg" class="maximizable-image" alt="">
+    <img src="images/vita-vilcina-KtOid0FLjqU-unsplash.jpg" class="maximizable-image" alt="">
+    <img src="images/vita-vilcina-KtOid0FLjqU-unsplash.jpg" class="maximizable-image" alt="">
+    <img src="images/vita-vilcina-KtOid0FLjqU-unsplash.jpg" class="maximizable-image" alt="">
+    <img src="images/vita-vilcina-KtOid0FLjqU-unsplash.jpg" class="maximizable-image" alt="">
+    <img src="images/vita-vilcina-KtOid0FLjqU-unsplash.jpg" class="maximizable-image" alt="">
+    <img src="images/vita-vilcina-KtOid0FLjqU-unsplash.jpg" class="maximizable-image" alt="">
+</div>
+</section>
+
+
+
+
+
+<footer id="footer">
+    <img src="images/Vivin-construction-and-engineering-logo-01.png" alt="" class="footerlogo">
+    <div class="contact">
+        <div class="cholders">
+            <img src="icons/call.png" alt="">
+            <a href="tel:919481068476" class="contact">+91 9481068476</a>
+        </div>
+        <div class="cholders">
+            <img src="icons/call.png" alt="">
+            <a href="https://wa.me/9481068476" class="contact">+91 9481068476</a>
+        </div>
+        <div class="cholders">
+            <img src="icons/email.png" alt="">
+            <a href="mailto:info@vivingroups.com" class="contact">info@vivingroups.com</a>
+        </div>
+    </div>
+</footer>
+<div class="copyright">
+    <p>&copy;<a class="copy" href="">2023 VIVIN Groups</a>| All Rights Reserved. Design and Developed By<a class="copy" href="https://theonesolution.co.in/"> The One Solution</a></p> 
+</div>
+
+
+<script src="carousel.js"></script>
+<script src="nav.js"></script>
+<script src="projectslide.js"></script>
+<script src="testimonial.js"></script>
+<script src="scrollanim.js"></script>
+<script src="maximiseimg.js"></script>
+</body>
+</html>

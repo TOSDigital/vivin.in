@@ -1,0 +1,152 @@
+header{
+    width: 100%;
+    height: 600px;   
+}
+.cover{
+    width: 100%;
+    object-fit: cover;
+    height: 600px;
+}
+.architecture{
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    background: #111111;
+}
+.architecture h1{
+    text-align: center;
+    color: #ffbf00;
+    font-size: 40px;
+    margin: 3%;
+}
+.photoholder{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin: 3%;
+
+}
+.photoholder img{
+    width: 100%;
+}
+.insidecont{
+    width: 90%;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+.insidecont p{
+    color: white;
+    text-align: center;
+    margin: 2%;
+}
+.insidecont li{
+    list-style: none;
+    text-align: center;
+    margin:2%;
+    text-decoration: none;
+    color: #ffffff;
+}
+section.project{
+    background-color: #111111;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+.project h2{
+    color: #ffbf00;
+    text-align: center;
+    font-size: 40px;
+    margin: 1%;
+}
+.projectgallery{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: 3%;
+    
+}
+.projectgallery img{
+    width: 25%;
+    margin: 1%;
+    cursor: pointer;
+}
+.maximized-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    overflow: hidden;
+  }
+
+  .maximized-image img {
+    max-width: 90%;
+    max-height: 90%;
+    transition: 1s ease-in-out;
+    animation: img 1s;
+  }
+  @keyframes img {
+    from{
+        transform: scale(0);
+    }
+    to{
+        transform: scale(1);
+    }
+  }
+
+
+
+
+
+@media (max-width: 500px){
+    header{
+        height: 800px;
+    }
+    .cover{
+        height: 800px;
+    }
+    .projectgallery{
+        flex-direction: column;
+
+    }
+    .projectgallery img{
+        width: 100%;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 864px){
+    
+}
+
+@media (min-width: 865px) and (max-width: 1280px){
+
+}
+
+
+
+
+
+
+
+
+@media (max-width: 500px){
+
+}
+
+@media (min-width: 501px) and (max-width: 864px){
+    
+}
+
+@media (min-width: 865px) and (max-width: 1280px){
+
+}
