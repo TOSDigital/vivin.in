@@ -330,7 +330,7 @@
     text-align: center;
     text-decoration: none;
     color: #ffbf00;
-    margin: 2%;
+    margin: 1%;
     font-weight: 500;
     font-size: 20px;
 }
@@ -342,8 +342,8 @@
 }
 
 .expbox img{
-    width: 25%;
-    margin: 2%;
+    width: 35%;
+    margin: 1%;
 }
 
 .tab-container {
@@ -396,4 +396,47 @@
   }
   .container-holder{
     width: 90%;
+  }
+
+
+
+
+  .csr{
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+  }
+  .csr h2{
+    font-size: 35px;
+    text-align: center;
+    color: #ffbf00;
+    margin: 1%;
+  }
+  .csr p{
+    color: white;
+    width: 90%;
+    text-align: center;
+    margin: 1%;
+    font-size: 20px;
+  }
+  .csrphotoholder{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .csrphotoholder img{
+    width: 23%;
+    margin: 1%;
+  }
+  .csrphotoholder1{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .csrphotoholder img{
+    width: 100%;
+    
   }
